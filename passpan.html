@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+
+</head>
+
+<body>
+
+<div class="control-group"><span class="help" title="选择一个与个人信息无关的密码，防止社会工程学破解">记忆密码</span>
+<input id="password" type="password" value="" autofocus /></div>
+<div class="control-group"><span class="help" title="用于区别不同用途密码的简短代号，如淘宝账号可用“taobao”或“tb”等">区分代号</span>
+<input id="key" type="text" value="""/></div>
+<div><span class="help" title="添加到默认填入的区分代号后面，用于提高默认区分代号的强度，可适当加入分隔符，如“.abc”或“#abc”">附加扰码</span>
+	<input id="scramble" type="text" value="""/>
+</div><div>生成结果
+  <input id="scramble2" type="text" value=""/>
+</div><div>
+  <input type="submit" name="button" id="button" value="输入密码" default>
+  <input type="submit" name="button2" id="button2" value="复制密码">
+  
+  
+</div>
+
+<script src="js/copy.js"></script>
+<script src="js/insert.js"></script>
+<script src="js/md5.js"></script>
+<script src="js/change.js"></script>
+<script src="js/getdomain.js"></script>
+<script src="js/config.js"></script>
+<script src="js/event.js"></script>
+</body>
+
+</html>

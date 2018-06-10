@@ -1,0 +1,39 @@
+{
+
+  "description": "花密 Flower Password --- 可记忆的密码管理方案",
+  "icons": {
+    "128": "img/icon128.png",
+    "16": "img/icon16.png",
+    "48": "img/icon48.png"
+  },
+  "manifest_version": 2,
+  "name": "Flower Password",
+  "version": "1.0",
+
+  "permissions": [
+    "contextMenus",
+    "activeTab",
+    "storage"
+  ],
+
+  "browser_action": {
+    "default_icon": {
+	    "128": "img/icon128.png",
+      "16": "img/icon16.png",
+      "48": "img/icon48.png"
+    },
+    
+    "default_title": "花密",
+    "default_popup": "passpan.html"
+  },
+  
+  "commands": {
+    "_execute_browser_action": {
+      "suggested_key": {
+        "default": "Alt+I"
+      },
+	    "description": "Insert Password"
+    }
+  }
+
+}
